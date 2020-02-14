@@ -1,6 +1,7 @@
+theme: jekyll-theme-hacker
+
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-url: https://unosquare.github.io
 url: https://unosquare.github.io
