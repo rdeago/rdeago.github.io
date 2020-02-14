@@ -1,1 +1,6 @@
-theme: jekyll-theme-minimal
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+url: https://unosquare.github.io
+url: https://unosquare.github.io
