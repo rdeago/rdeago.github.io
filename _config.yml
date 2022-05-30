@@ -1,12 +1,53 @@
-title:       Riccardo De Agostini
-author:      Riccardo De Agostini
-description: "Quasi-random thoughts, mostly about software development and .NET / C#"
-baseurl:     ""
-url:         "https://rdeago.github.io/"
-date_format: "%b %-d, %Y"
+title: "Riccardo De Agostini"
+title: "Ric's ramblings"
+# subtitle: ""
+description: "A collection of scattered toughts on software development"
+author:
+  name: "Riccardo De Agostini"
+  avatar: "/assets/images/riccardo-de-agostini-250x250.jpg"
+  bio: "30+ years writing software. Still eager to learn.<br/>.NET, C#, Raspberry Pi FTW"
+  location: "Rovereto, Italy"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rdeago"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rdeago"
 
-theme: jekyll-theme-midnight
-show_downloads: false
+url:         "https://rdeago.github.io/"
+baseurl:     ""
+locale:      "en-US"
+date_format: "%b %-d, %Y"
+timezone:    "Europe/Rome"
+
+remote_theme:          "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+title_separator:       "@"
 
 kramdown:
   gfm_emojis: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
