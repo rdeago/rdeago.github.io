@@ -38,7 +38,7 @@ defaults:
       author_profile: true
       show_date: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   # _pages
@@ -49,5 +49,16 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
+
+repository: "rdeago/rdeago.github.io"
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : "R_kgDOHamCrg"
+    category_name        : "General"
+    category_id          : "DIC_kwDOHamCrs4CPXzC"
+    discussion_term      : "pathname" # "url", "title", "og:title"
+    reactions_enabled    : 1
+    theme                : "dark" # "light", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
