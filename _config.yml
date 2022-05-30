@@ -1,28 +1,28 @@
-title: "riccar.do"
-subtitle: "A blog"
+title      : "riccar.do"
+subtitle   : "A blog"
 description: "A collection of scattered toughts on software development"
 author:
-  name: "Riccardo De Agostini"
-  avatar: "/assets/images/riccardo-250x250.jpg"
-  bio: "30+ years writing software. Still eager to learn.<br/>.NET, C#, Raspberry Pi FTW"
+  name    : "Riccardo De Agostini"
+  avatar  : "/assets/images/riccardo-250x250.jpg"
+  bio     : "30+ years writing software. Still eager to learn.<br/>.NET, C#, Raspberry Pi FTW"
   location: "Rovereto, Italy"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rdeago"
+      icon : "fab fa-fw fa-github"
+      url  : "https://github.com/rdeago"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/rdeago"
+      icon : "fab fa-fw fa-twitter-square"
+      url  : "https://twitter.com/rdeago"
 
-url:         "https://riccar.do/"
-baseurl:     ""
-locale:      "en-US"
+url        : "https://riccar.do/"
+baseurl    : ""
+locale     : "en-US"
 date_format: "%b %-d, %Y"
-timezone:    "Europe/Rome"
+timezone   : "Europe/Rome"
 
-remote_theme:          "mmistakes/minimal-mistakes@4.24.0"
+remote_theme         : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
-title_separator:       "@"
+title_separator      : "@"
 
 plugins:
   - jekyll-include-cache
@@ -36,31 +36,31 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout        : single
       author_profile: true
-      show_date: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      show_date     : true
+      read_time     : true
+      comments      : true
+      share         : true
+      related       : true
   # _pages
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
+      layout        : single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
+      read_time     : true
+      comments      : true
+      share         : true
 
 repository: "rdeago/rdeago.github.io"
 comments:
   provider: "giscus"
   giscus:
-    repo_id              : "R_kgDOHamCrg"
-    category_name        : "General"
-    category_id          : "DIC_kwDOHamCrs4CPXzC"
-    discussion_term      : "pathname" # "url", "title", "og:title"
-    reactions_enabled    : 1
-    theme                : "dark" # "light", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    repo_id          : "R_kgDOHamCrg"
+    category_name    : "General"
+    category_id      : "DIC_kwDOHamCrs4CPXzC"
+    discussion_term  : "pathname" # "url", "title", "og:title"
+    reactions_enabled: 1
+    theme            : "dark_dimmed" # "light", "dark", "transparent_dark", "preferred_color_scheme"
