@@ -1,3 +1,6 @@
-# How to mark code as generated
-
-Still nothing to read here. I'm trying to make sense GitHub Pages, Jekyll, etc.
+---
+title: How to mark code as generated
+category: Research
+tags: roslyn, source-generators
+---
+Still nothing to read here, sorry.
