@@ -1,1 +1,12 @@
+title:       Riccardo De Agostini
+author:      Riccardo De Agostini
+description: "Quasi-random thoughts, mostly about software development and .NET / C#"
+baseurl:     ""
+url:         "https://rdeago.github.io/"
+date_format: "%b %-d, %Y"
+
 theme: jekyll-theme-midnight
+show_downloads: false
+
+kramdown:
+  gfm_emojis: true
