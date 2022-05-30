@@ -1,7 +1,7 @@
-title      : "riccar.do"
-subtitle   : "A blog. Sort of."
+title      : "Ric's ramblings"
+subtitle   : "On software and more."
 name       : "Riccardo De Agostini" # This appears in footer's (C) note.
-description: "A collection of scattered toughts on software development"
+description: "A collection of scattered toughts, mainly about software development topics."
 author:
   name    : "Riccardo De Agostini"
   avatar  : "/assets/images/riccardo-250x250.jpg"
