@@ -1,5 +1,6 @@
 title      : "riccar.do"
 subtitle   : "A blog. Sort of."
+name       : "Riccardo De Agostini" # This appears in footer's (C) note.
 description: "A collection of scattered toughts on software development"
 author:
   name    : "Riccardo De Agostini"
