@@ -24,6 +24,9 @@ remote_theme:          "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
 title_separator:       "@"
 
+plugins:
+  - jekyll-include-cache
+
 kramdown:
   gfm_emojis: true
 
