@@ -5,7 +5,7 @@ description: "A collection of scattered toughts, mainly about software developme
 author:
   name    : "Riccardo De Agostini"
   avatar  : "/assets/images/riccardo-250x250.jpg"
-  bio     : "30+ years writing software. Still eager to learn.<br/>.NET, C#, Raspberry Pi FTW"
+  bio     : "30+ years writing software.<br>Still eager to learn.<br>.NET, C#, Raspberry Pi FTW"
   location: "Rovereto, Italy"
   links:
     - label: "GitHub"
