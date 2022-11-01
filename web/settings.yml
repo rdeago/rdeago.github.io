@@ -1,0 +1,26 @@
+# Hosting settings
+Host: riccar.do
+LinksUseHttps: true
+
+# Branding
+SiteTitle: The craft, without the cruft
+SiteDescription: Ric's ramblings on software development
+Copyright: => @$"All articles © {DateTime.Now.Year} Riccardo De Agostini"
+
+# Statiq build settings
+# UseStringContentFiles: false
+# UseCache: true
+# CleanOutputPath: true
+
+# Blog settings
+DateTimeInputCulture: "" # Invariant culture
+DateTimeDisplayCulture: en-US
+GenerateSearchIndex: true
+CommentEngine: giscus
+GiscusRepoName: rdeago/rdeago.github.io
+GiscusRepoId: R_kgDOHamCrg
+GiscusCategoryId: DIC_kwDOHamCrs4CPXzC
+
+# Default masthead image
+Image: /images/bohemian-rhapsody-csharp.jpg
+ImageAttribution: Image by <a href="https://github.com/zachwhaley/bohemian-rhapsody.cs">Zach Whaley</a>

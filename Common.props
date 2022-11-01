@@ -1,0 +1,37 @@
+<Project>
+
+  <!-- Branding, ownership, licensing, project information -->
+  <PropertyGroup>
+    <Product>riccar.do</Product>
+    <Authors>Riccardo De Agostini</Authors>
+    <Owners>rdeago</Owners>
+    <Company>$(Authors)</Company>
+    <Copyright>Copyright (c) $(Authors)</Copyright>
+    <Trademark />
+    <RepositoryUrl>https://github.com/rdeago/rdeago.github.io</RepositoryUrl>
+    <UseVersionFile>false</UseVersionFile>
+  </PropertyGroup>
+
+  <!-- Common build options -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>false</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+    <CLSCompliant>true</CLSCompliant>
+    <ComVisible>false</ComVisible>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <!-- Solution-wide build options -->
+  <PropertyGroup>
+    <XmlDocs>false</XmlDocs>
+    <IsPackable>false</IsPackable>
+    <UsePublicApiAnalyzers>false</UsePublicApiAnalyzers>
+  </PropertyGroup>
+
+</Project>

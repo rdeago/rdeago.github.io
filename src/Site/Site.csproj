@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <CLSCompliant>false</CLSCompliant>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <WebDirectory>$(HomeDirectory)web\</WebDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(WebDirectory)**/*" Link="- Web\%(RecursiveDir)\%(Filename)%(Extension)" CopyToOutputDirectory="Never" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyMetadata Include="WebDirectory" Value="$(WebDirectory)" />
+    <AssemblyMetadata Include="ArtifactsDirectory" Value="$(ArtifactsDirectory)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Devlead.Statiq" />
+    <PackageReference Include="Statiq.Web" />
+  </ItemGroup>
+
+</Project>

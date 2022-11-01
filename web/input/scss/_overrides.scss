@@ -1,0 +1,21 @@
+.sidebar {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .about-picture {
+      margin-right: 2rem;
+    }
+
+    ul.about-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      li {
+        margin: 2px 0;
+      }
+    }
+  }
+}

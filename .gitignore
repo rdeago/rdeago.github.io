@@ -1,0 +1,22 @@
+# Build artifacts
+artifacts/
+
+# .NET SDK
+**/bin/
+**/obj/
+
+# Visual Studio
+**/.vs/
+*.csproj.user
+*.pubxml.user
+
+# ReSharper
+*.DotSettings.user
+_ReSharper.*/
+
+# Windows thumbnails
+Thumbs.db
+
+# Statiq
+web/theme/
+src/Site/wwwroot/
