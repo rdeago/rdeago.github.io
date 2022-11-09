@@ -95,7 +95,7 @@ A little digging in Roslyn analyzers' source code, however, reveals the trick: t
 
 Of the two attributes I just mentioned, `CompilerGenerated` is reserved for use by the compiler to mark, for example, default contructors and accessors of auto-implemented properties. Citing [an old article from the Code Analysis team blog](https://learn.microsoft.com/en-us/archive/blogs/codeanalysis/correct-usage-of-the-compilergeneratedattribute-and-the-generatedcodeattribute) (emphasis mine):
 
-  > **CompilerGenerateAttribute**
+  > **CompilerGeneratedAttribute**
   >
   > This attribute is _for compiler use only_ and indicates that a particular code element is compiler generated. _This should never be used in source code whatsoever._ In fact, some users believe that usage of it should be a compilation error. I tend to agree.
 
