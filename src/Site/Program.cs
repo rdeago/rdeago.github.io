@@ -11,6 +11,8 @@ using Statiq.App;
 using Statiq.Common;
 using Statiq.Web;
 
+// Retrieve assembly metadata attributes injected via MSBuild.
+// This is a quick and easy way to use MSBuild properties from C# code.
 var metadataAttributes = Assembly
     .GetExecutingAssembly()
     .GetCustomAttributes()
@@ -24,6 +26,10 @@ var artifactsDirectory = metadataAttributes
     .First(attr => attr.Key == "ArtifactsDirectory")
     .Value!;
 
+// By default, Statiq will look for settings in the project directory.
+// This is far from ideal when, like here, web files are totally separated from C# code.
+// Ditch the default position for settings: look for them in the web directory instead.
+// Also make sure all generated files go into the artifacts directory.
 return await Bootstrapper
     .Factory
     .CreateDefaultWithout(args, DefaultFeatures.Settings)
